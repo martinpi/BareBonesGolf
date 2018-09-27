@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Prime31.ZestKit;
+// using Prime31.ZestKit;
 
 [RequireComponent(typeof(Rigidbody))]
 
@@ -14,7 +14,7 @@ public class DragKick : MonoBehaviour {
 
 	void Start() {
 		// transform.localScale = Vector3.one / 4f;
-		transform.ZKlocalScaleTo(Vector3.one, 1f).setLoops(LoopType.PingPong).setEaseType(EaseType.ElasticIn).start();
+		// transform.ZKlocalScaleTo(Vector3.one, 1f).setLoops(LoopType.PingPong).setEaseType(EaseType.ElasticIn).start();
 	}
 
 	void OnDrawGizmos() {
